@@ -1,0 +1,146 @@
+.saudiMap-News {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SadiMapImage {
+  opacity: 0.09;
+  height: 100%;
+  width: 100%;
+}
+.news {
+  font-size: 4rem;
+}
+.News-Text {
+  display: flex;
+  justify-content: center;
+  height: 400px;
+  width: 400px;
+}
+.newsLogo {
+  margin-top: 10px;
+  height: 60px;
+  width: 60px;
+}
+
+.last-News-Div {
+  background-color: #002554;
+  height: 60vh;
+  width: 100%;
+}
+.divContant {
+  padding: 2% 5%;
+  width: 90%;
+}
+.Text {
+  text-align: left;
+  color: #002554;
+}
+
+.News-Button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.News-Images {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.image {
+  margin-top: 5%;
+  width: 500px;
+  height: 300px;
+}
+.LastNews-Date {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+  color: white;
+  border: 2px;
+  border-left-style: solid;
+  border-left-color: #ae1c1c;
+}
+.grid-View-Button {
+  background-color: #ae1c1c;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-right: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.list-View-Button {
+  padding: 10px;
+  border: none;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.react-multiple-carousel__arrow--right {
+  right: 47vw;
+}
+.react-multiple-carousel__arrow--left {
+  left: 47vw;
+}
+.react-multiple-carousel__arrow {
+  bottom: -6vh;
+  z-index: 2000;
+}
+.react-multi-carousel-list {
+  overflow: visible;
+}
+.react-multiple-carousel__arrow {
+  background-color: #ae1c1c;
+}
+.Banner {
+  height: 700px;
+  width: 1000px;
+}
+
+@media all and (max-width: 425px) {
+  .Banner{
+    margin-left: 30%;
+  }
+  .saudiMap-News {
+    flex-direction: column;
+  }
+  .SadiMapImage {
+    margin-left: 20%;
+    height: 50%;
+    width: 50%;
+  }
+  .News-Text {
+    margin-left:80% ;
+    margin-top: -80%;
+    height: 500px;
+    width: 500px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px)  {
+  .SadiMapImage {
+    margin-top: 15%;
+    margin-left: 5%;
+    height: 50%;
+    width: 80%;
+  }
+  .text-Part{
+    height: 500px;
+    width: 500px;
+  }
+  .News-Text {
+    margin-top: -20%;
+    margin-right: 10%;
+    height: 400px;
+    width: 400px;
+  }
+  .news {
+  font-size: 2rem;
+}
+
+} 
