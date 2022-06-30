@@ -1,7 +1,6 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { ImNewspaper } from "react-icons/im";
 import { MdOutlineDarkMode } from "react-icons/md";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
@@ -16,7 +15,7 @@ function CollapsibleExample() {
       <Navbar bg="white" className="Text">
         <Container>
           <Navbar.Brand>
-            <img src={logo1} id="logoBlog" />
+            <img src={logo1} id="logoBlog" alt="imageBlog" />
             <b id="blog">blog</b>
           </Navbar.Brand>
         </Container>
@@ -46,6 +45,7 @@ function CollapsibleExample() {
               src={logo}
               width="70"
               height="50"
+              alt="logo2030"
               className="d-inline-block align-top"
             />
           </Navbar.Brand>

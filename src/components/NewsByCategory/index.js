@@ -68,14 +68,16 @@ const getAllBlogs = async () => {
            <>
              <div className="BigImage">
                <img
+                 alt="imageBlog"
                  src={element.image}
                  height="100%"
                  onClick={() => goToDetails(element.id)}
                />
              </div>
-             
+
              <div className="NewsByCategory-Images-Grid BigImage">
                <img
+                 alt="imageBlog"
                  src={element.image}
                  onClick={() => goToDetails(element.id)}
                  height="50%"
@@ -83,6 +85,7 @@ const getAllBlogs = async () => {
                  className="image1"
                />
                <img
+                 alt="imageBlog"
                  src={element.image}
                  onClick={() => goToDetails(element.id)}
                  height="50%"
