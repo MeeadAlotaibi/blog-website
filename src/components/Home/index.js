@@ -5,14 +5,11 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import saudiMap from "../../images/SaudiMap.png";
 import newsLogo from "../../images/newsLogo.png";
-// import Carousel from "react-multi-carousel";
 import NewsByCategory from "../NewsByCategory/index";
 import { AiOutlineUnorderedList } from "react-icons/ai";
-import "react-multi-carousel/lib/styles.css";
 import "./style.css";
 
 const BASE_URL = "https://62bb465a573ca8f83296a3bf.mockapi.io/api/v1/blog";
-
 const Home = () => {
   const [news, setNews] = useState([]);
   let navigate = useNavigate();
