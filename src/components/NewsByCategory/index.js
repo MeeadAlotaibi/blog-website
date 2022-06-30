@@ -18,6 +18,7 @@ const goToDetails = (id) => {
    };
 useEffect(() => {
   getAllBlogs();
+  // eslint-disable-next-line
 }, []);
 
 const getAllBlogs = async () => {
