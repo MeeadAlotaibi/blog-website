@@ -40,14 +40,17 @@ blog about Saudi Economy and sports .
 ---
 
 # Laight mode 
- <img width="1440" alt="Screen Shot 1443-12-02 at 4 20 59 AM" src="https://user-images.githubusercontent.com/92248111/176807444-b054aa84-69a6-45a7-ab3d-74f970152e44.png">
-<img width="1440" alt="Screen Shot 1443-12-02 at 4 58 39 AM" src="https://user-images.githubusercontent.com/92248111/176808415-feeacb07-cd42-41aa-bd43-b1d8c5877a59.png">
-<img width="1440" alt="Screen Shot 1443-12-02 at 4 22 32 AM" src="https://user-images.githubusercontent.com/92248111/176807360-bc00b54a-1fcb-4772-8939-ccb199caa345.png">
+ <img width="1440" alt="Screen Shot 1443-12-02 at 5 17 30 AM" src="https://user-images.githubusercontent.com/92248111/176810532-2af95897-2fb1-4366-afea-0593726ab3d8.png">
+<img width="1440" alt="Screen Shot 1443-12-02 at 5 17 47 AM" src="https://user-images.githubusercontent.com/92248111/176810550-5952851e-d27d-4169-a587-1b8fdb1bf34a.png">
+<img width="1440" alt="Screen Shot 1443-12-02 at 5 17 56 AM" src="https://user-images.githubusercontent.com/92248111/176810581-9b33fca7-cdf6-482d-8c0f-d1315d911e73.png">
+
 
 ---
 
 # Darck mode 
+<img width="1440" alt="Screen Shot 1443-12-02 at 5 14 14 AM" src="https://user-images.githubusercontent.com/92248111/176810593-4d0edb82-0f7f-4eef-b2bd-93d08a509df4.png">
 
-<img width="1440" alt="Screen Shot 1443-12-02 at 4 29 07 AM" src="https://user-images.githubusercontent.com/92248111/176807903-917869a9-6451-4d6b-9e70-74ee587a0107.png">
-<img width="1438" alt="Screen Shot 1443-12-02 at 4 22 05 AM" src="https://user-images.githubusercontent.com/92248111/176808163-bdbb60bb-929f-49bd-9505-892d98257795.png">
-<img width="1440" alt="Screen Shot 1443-12-02 at 4 29 20 AM" src="https://user-images.githubusercontent.com/92248111/176808013-5cb95370-9854-42e9-b3d3-ae6755625f95.png">
+<img width="1440" alt="Screen Shot 1443-12-02 at 5 14 28 AM" src="https://user-images.githubusercontent.com/92248111/176810615-82d3c3df-536c-4206-b195-3d19f35a0207.png">
+
+<img width="1440" alt="Screen Shot 1443-12-02 at 5 15 02 AM" src="https://user-images.githubusercontent.com/92248111/176810637-30fffec6-42a6-4ba2-99b0-0fbdfdebddcf.png">
+
