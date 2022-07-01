@@ -39,14 +39,14 @@ blog about Saudi Economy and sports .
 ---
 
 # Laight mode 
- ![Home Page in Light mode]<img width="1440" alt="Screen Shot 1443-12-02 at 4 20 59 AM" src="https://user-images.githubusercontent.com/92248111/176807444-b054aa84-69a6-45a7-ab3d-74f970152e44.png">
-![Home Page in Light mode]<img width="1440" alt="Screen Shot 1443-12-02 at 4 58 39 AM" src="https://user-images.githubusercontent.com/92248111/176808415-feeacb07-cd42-41aa-bd43-b1d8c5877a59.png">
-![Home Page in Light mode]<img width="1440" alt="Screen Shot 1443-12-02 at 4 22 32 AM" src="https://user-images.githubusercontent.com/92248111/176807360-bc00b54a-1fcb-4772-8939-ccb199caa345.png">
+ <img width="1440" alt="Screen Shot 1443-12-02 at 4 20 59 AM" src="https://user-images.githubusercontent.com/92248111/176807444-b054aa84-69a6-45a7-ab3d-74f970152e44.png">
+<img width="1440" alt="Screen Shot 1443-12-02 at 4 58 39 AM" src="https://user-images.githubusercontent.com/92248111/176808415-feeacb07-cd42-41aa-bd43-b1d8c5877a59.png">
+<img width="1440" alt="Screen Shot 1443-12-02 at 4 22 32 AM" src="https://user-images.githubusercontent.com/92248111/176807360-bc00b54a-1fcb-4772-8939-ccb199caa345.png">
 
 ---
 
 # Darck mode 
 
-![Home Page in Darck mode]<img width="1440" alt="Screen Shot 1443-12-02 at 4 29 07 AM" src="https://user-images.githubusercontent.com/92248111/176807903-917869a9-6451-4d6b-9e70-74ee587a0107.png">
-![Home Page in Darck mode]<img width="1438" alt="Screen Shot 1443-12-02 at 4 22 05 AM" src="https://user-images.githubusercontent.com/92248111/176808163-bdbb60bb-929f-49bd-9505-892d98257795.png">
-![Home Page in Darck mode]<img width="1440" alt="Screen Shot 1443-12-02 at 4 29 20 AM" src="https://user-images.githubusercontent.com/92248111/176808013-5cb95370-9854-42e9-b3d3-ae6755625f95.png">
+<img width="1440" alt="Screen Shot 1443-12-02 at 4 29 07 AM" src="https://user-images.githubusercontent.com/92248111/176807903-917869a9-6451-4d6b-9e70-74ee587a0107.png">
+<img width="1438" alt="Screen Shot 1443-12-02 at 4 22 05 AM" src="https://user-images.githubusercontent.com/92248111/176808163-bdbb60bb-929f-49bd-9505-892d98257795.png">
+<img width="1440" alt="Screen Shot 1443-12-02 at 4 29 20 AM" src="https://user-images.githubusercontent.com/92248111/176808013-5cb95370-9854-42e9-b3d3-ae6755625f95.png">
