@@ -25,7 +25,7 @@ blog about Saudi Economy and sports .
 | Path                              | Component    | Permissions    | Behavior                                                             |
 | --------------------------------- | ------------ | -------------- | -------------------------------------------------------------------- |
 | `/`                               | Home         | public         | Home page                                                            |
-| `/Details/id`                     | Details      | public         | After the user clicks on the image, it will take him to the detail page of that image 
+| `/Details/id`                     | Details      | public         | Details page : After the user clicks on the image, it will take him to the detail page of that image 
 
 
 ---
