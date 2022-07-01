@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Blog Websit 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+blog about Saudi Economy and sports .
+- it is responsive .
+- it also can be Darck mode or light mode .
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## API
+[mockApi](https://62bb465a573ca8f83296a3bf.mockapi.io/api/v1/blog)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## used library
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [React](https://ar.reactjs.org/)
+- [Bootstrap](https://react-bootstrap.github.io/)
+- [react-slick](https://react-slick.neostack.com/)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Routes
 
-### `npm run build`
+| Path                              | Component    | Permissions    | Behavior                                                             |
+| --------------------------------- | ------------ | -------------- | -------------------------------------------------------------------- |
+| `/`                               | Home         | public         | Home page                                                            |
+| `/Details/id`                     | Details      | public         | After the user clicks on the image, it will take him to the detail page of that image 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Components
 
-### `npm run eject`
+- Home
+- Details 
+- Nav
+- NewsByCategory
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Laight mode 
+ ![Home Page in Light mode]<img width="1440" alt="Screen Shot 1443-12-02 at 4 20 59 AM" src="https://user-images.githubusercontent.com/92248111/176807444-b054aa84-69a6-45a7-ab3d-74f970152e44.png">
+![Home Page in Light mode]<img width="1440" alt="Screen Shot 1443-12-02 at 4 58 39 AM" src="https://user-images.githubusercontent.com/92248111/176808415-feeacb07-cd42-41aa-bd43-b1d8c5877a59.png">
+![Home Page in Light mode]<img width="1440" alt="Screen Shot 1443-12-02 at 4 22 32 AM" src="https://user-images.githubusercontent.com/92248111/176807360-bc00b54a-1fcb-4772-8939-ccb199caa345.png">
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Darck mode 
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Home Page in Darck mode]<img width="1440" alt="Screen Shot 1443-12-02 at 4 29 07 AM" src="https://user-images.githubusercontent.com/92248111/176807903-917869a9-6451-4d6b-9e70-74ee587a0107.png">
+![Home Page in Darck mode]<img width="1438" alt="Screen Shot 1443-12-02 at 4 22 05 AM" src="https://user-images.githubusercontent.com/92248111/176808163-bdbb60bb-929f-49bd-9505-892d98257795.png">
+![Home Page in Darck mode]<img width="1440" alt="Screen Shot 1443-12-02 at 4 29 20 AM" src="https://user-images.githubusercontent.com/92248111/176808013-5cb95370-9854-42e9-b3d3-ae6755625f95.png">
