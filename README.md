@@ -16,6 +16,7 @@ blog about Saudi Economy and sports .
 - [React](https://ar.reactjs.org/)
 - [Bootstrap](https://react-bootstrap.github.io/)
 - [react-slick](https://react-slick.neostack.com/)
+- [react-icons](https://react-icons.github.io/react-icons)
 
 ---
 
