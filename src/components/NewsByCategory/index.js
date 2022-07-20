@@ -1,4 +1,4 @@
-import React, {useEffect , useState}from "react";
+import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { BsArrowRightShort } from "react-icons/bs";
@@ -8,23 +8,22 @@ import { IoIosBody } from "react-icons/io";
 import "./style.css";
 const BASE_URL = "https://62bb465a573ca8f83296a3bf.mockapi.io/api/v1/blog";
 
-
 const NewsByCategory = () => {
   const [news, setNews] = useState([]);
   let navigate = useNavigate();
 
-const goToDetails = (id) => {
-     navigate(`/Details/${id}`);
-   };
-useEffect(() => {
-  getAllBlogs();
-  // eslint-disable-next-line
-}, []);
+  const goToDetails = (id) => {
+    navigate(`/Details/${id}`);
+  };
+  useEffect(() => {
+    getAllBlogs();
+    // eslint-disable-next-line
+  }, []);
 
-const getAllBlogs = async () => {
-  const blog = await axios.get(`${BASE_URL}`);
-  setNews(blog.data.splice(0.3));
-};
+  const getAllBlogs = async () => {
+    const blog = await axios.get(`${BASE_URL}`);
+    setNews(blog.data.splice(1, 3));
+  };
 
   return (
     <div className="container-NewsByCategory">
@@ -62,44 +61,24 @@ const getAllBlogs = async () => {
           </u>
         </ul>
       </div>
-      {news ? (
-      <div className="NewsByCategory-Images-Flex">
-      {news.map((element) => {
-         return (
-           <>
-             <div className="BigImage">
-               <img
-                 alt="imageBlog"
-                 src={element.image}
-                 height="100%"
-                 onClick={() => goToDetails(element.id)}
-               />
-             </div>
 
-             <div className="NewsByCategory-Images-Grid BigImage">
-               <img
-                 alt="imageBlog"
-                 src={element.image}
-                 onClick={() => goToDetails(element.id)}
-                 height="50%"
-                 width="100%"
-                 className="image1"
-               />
-               <img
-                 alt="imageBlog"
-                 src={element.image}
-                 onClick={() => goToDetails(element.id)}
-                 height="50%"
-                 width="100%"
-                 className="image1"
-               />
-             </div>
-           </>
-         );}
+      {news ? (
+        <div class="grid-container">
+          {news.map((element) => {
+            return (
+              <div className="item">
+                <img
+                  alt="imageBlog"
+                  src={element.image}
+                  onClick={() => goToDetails(element.id)}
+                />
+              </div>
+            );
+          })}
+        </div>
+      ) : (
+        ""
       )}
-      </div>
-      ) : ("")}
-      
     </div>
   );
 };
