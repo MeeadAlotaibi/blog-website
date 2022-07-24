@@ -34,12 +34,9 @@
   color: #ffffff;
 }
 
-a {
-  text-decoration: none;
-}
-
 .icon {
   color: black;
+  font-size: 1.5rem;
 }
 
 .changeMode {
@@ -47,4 +44,28 @@ a {
   z-index: 100;
   right: 12rem;
   top: 1.5rem;
+}
+@media all and (max-width: 425px) {
+  .icon {
+    color: black;
+    font-size: 1rem;
+  }
+  .changeMode {
+    margin-left: 110%;
+    margin-bottom: -10%;
+    position: relative;
+    z-index: 100;
+    right: 5rem;
+    top: 1rem;
+  }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .changeMode {
+    margin-left: 105%;
+    margin-bottom: -10%;
+    position: relative;
+    z-index: 100;
+    right: 5rem;
+    top: 1rem;
+  }
 }

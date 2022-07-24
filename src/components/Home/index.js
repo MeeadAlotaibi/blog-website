@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Slider from "react-slick";
-
+import Spinner from "react-bootstrap/Spinner";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import saudiMap from "../../images/SaudiMap.png";
@@ -114,7 +114,7 @@ const Home = () => {
               <Slider {...settings}>
                 {news.map((element) => {
                   return (
-                    <div>
+                    <div className="">
                       <img
                         alt="images"
                         src={element.image}
@@ -127,7 +127,9 @@ const Home = () => {
               </Slider>
             </>
           ) : (
-            "loading..."
+            <Spinner animation="border" role="status">
+              <span className="visually-hidden">Loading...</span>
+            </Spinner>
           )}
         </div>
       </div>

@@ -25,37 +25,34 @@ const Details = () => {
   return (
     <div className="container-Details">
       {oneBlog && (
-        <div className="Details-Content">
-          <div className="Icons-Title Text">
-            <img src={newsLogo} alt="NewsLogo" className="NewsLogo" />
+        <>
+          <div className="Details-Content">
+            <div className="Icons-Title Text">
+              <img src={newsLogo} alt="NewsLogo" className="NewsLogo" />
 
-            <h1 className="Details-Title Text">{oneBlog.title}</h1>
+              <h1 className="Details-Title Text">{oneBlog.title}</h1>
+            </div>
+
+            <div className="Text-Image">
+              <h6 className="Red">
+                Date of publication
+                <b>
+                  <span className="Text">{oneBlog.date}</span>
+                </b>
+              </h6>
+              <img src={oneBlog.image} alt="Details" id="Details-Of-Image" />
+              <p className="Description Text">{oneBlog.description}</p>
+              <div className="textarea-Button">
+                <textarea
+                  name="comment"
+                  rows="3"
+                  placeholder="Add a comment ...."
+                  className="texterea"
+                />
+                <button className="save-Button Buttons">Save</button>
+              </div>{" "}
+            </div>
           </div>
-
-          <div className="Text-Image">
-            <h6 className="Red">
-              Date of publication
-              <b>
-                <span className="Text">{oneBlog.date}</span>
-              </b>
-            </h6>
-            <img
-              src={oneBlog.image}
-              alt="Details"
-              id="Details-Of-Image"
-            />
-            <p className="Description Text">{oneBlog.description}</p>
-            <div className="textarea-Button">
-              <textarea
-                name="comment"
-                rows="3"
-                placeholder="Add a comment ...."
-                className="texterea"
-              />
-              <button className="save-Button Buttons">Save</button>
-            </div>{" "}
-          </div>
-
           <div className="Icon-Textarea">
             <div className="userIcon">
               <TbLetterH id="iconH" />
@@ -64,7 +61,7 @@ const Details = () => {
               ut aliquip ex ea commod consequat. Duis aute irure dolor in .
             </div>
           </div>
-        </div>
+        </>
       )}
     </div>
   );

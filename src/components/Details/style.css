@@ -9,7 +9,14 @@
 }
 .container-Details {
   margin: 5%;
-  width: 100%;
+  /* width: 100%; */
+}
+.Details-Content {
+  width: 90%;
+  margin-left: 5%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
 .NewsLogo{
   margin-top: 10px;
@@ -37,21 +44,14 @@
   font-size: 3.5rem;
   width: 80%;
 }
-.Details-Content {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-}
+
 .textarea-Button {
   margin-bottom: 2%;
 }
 .textarea-Button > button {
   margin-left: 93%;
 }
-.userComment{
-  width: 100%;
-  border: 2px solid #002554;
-}
+
 .Text-Image {
   width: 90%;
   display: grid;
@@ -74,8 +74,9 @@
 }
 .Icon-Textarea {
   display: flex;
-  margin-left: 4%;
-  width: 78%;
+  gap: 5px;
+  width: 86%;
+  margin-left: -1%;
 }
 .userIcon {
   height: 80px;
@@ -93,6 +94,12 @@
   border: 2px solid #002554;
 }
 
+ .userComment{
+  width: 100%;
+  border: 2px solid #002554;
+}
+
+/* ********************************************************************************** */
 
 
 @media only screen and (min-width: 320px) and (max-width: 425px)  {
@@ -148,12 +155,12 @@
   width: 800px;
   border: 0.3px solid #002554;
 }
-.Icon-Textarea {
+/* .Icon-Textarea {
   display: flex;
   margin-left: 27%;
   width: 78%;
   padding: 50px;
-}
+} */
 .userIcon {
 
     height: 30px;

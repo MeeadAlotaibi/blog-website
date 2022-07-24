@@ -26,7 +26,7 @@ function CollapsibleExample() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link className="Buttons Text">
-              <Link to="/"> Home</Link>
+              <Link to="/"  > Home</Link>
 
               <RiArrowDropDownLine />
             </Nav.Link>
@@ -36,9 +36,7 @@ function CollapsibleExample() {
             <Nav.Link className="Buttons Text">More</Nav.Link>
           </Nav>
 
-          <Navbar.Brand>
-            <MdOutlineDarkMode />
-          </Navbar.Brand>
+          <Navbar.Brand>{/* <MdOutlineDarkMode /> */}</Navbar.Brand>
           <Navbar.Brand className="Buttons">العربية</Navbar.Brand>
           <Navbar.Brand>
             <img

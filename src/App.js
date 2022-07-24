@@ -15,7 +15,7 @@ function App() {
     <div className={mode === false ? "App light" : "App dark"}>
       <div onClick={() => setMode(!mode)} className="changeMode">
         {mode === false ? (
-          <MdOutlineDarkMode />
+          <MdOutlineDarkMode className="icon" />
         ) : (
           <MdOutlineLightMode className="icon" />
         )}

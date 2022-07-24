@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Spinner from "react-bootstrap/Spinner";
 import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import { BsArrowRightShort } from "react-icons/bs";
@@ -22,7 +23,7 @@ const NewsByCategory = () => {
 
   const getAllBlogs = async () => {
     const blog = await axios.get(`${BASE_URL}`);
-    setNews(blog.data.splice(1, 3));
+    setNews(blog.data.splice(1,3));
   };
 
   return (
@@ -77,7 +78,9 @@ const NewsByCategory = () => {
           })}
         </div>
       ) : (
-        ""
+        <Spinner animation="border" role="status">
+          <span className="visually-hidden">Loading...</span>
+        </Spinner>
       )}
     </div>
   );
