@@ -18,24 +18,34 @@
   font-family: "Neo Sans Arabic";
 }
 
-.light {
-  color: rgb(0, 0, 0);
-  background-color: white;
-}
+/*  For Darck Mode and Light Mode  */
 
+.light .nav-link , .light a , .light .svg-nav{
+  color: #002554;
+  /* background-color: white; */
+}
+.light .nav-link :hover, .light a:hover , .light .svg-nav:hover{
+  color: #002554;
+  /* background-color: white; */
+}
 .dark {
   background-color: rgb(48, 47, 47);
 }
 
-.dark nav .nav-link,
+.dark nav ,
 .dark .linkk,
 .dark .Text,
 .dark .category {
   color: #ffffff;
 }
-
+.dark a ,.dark .nav-link{
+  color: #002554
+}
+.dark .list-View-Button{
+color: #ae1c1c;
+}
 .icon {
-  color: black;
+  color: #002554;
   font-size: 1.5rem;
 }
 
@@ -47,7 +57,7 @@
 }
 @media all and (max-width: 425px) {
   .icon {
-    color: black;
+    color: #002554;
     font-size: 1rem;
   }
   .changeMode {

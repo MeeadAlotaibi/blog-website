@@ -1,7 +1,6 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { MdOutlineDarkMode } from "react-icons/md";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { Link } from "react-router-dom";
 import logo from "../../images/2030Black.png";
@@ -25,18 +24,17 @@ function CollapsibleExample() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link className="Buttons Text">
-              <Link to="/"  > Home</Link>
+            <Nav.Link>
+              <Link to="/"> Home</Link>
 
-              <RiArrowDropDownLine />
+              <RiArrowDropDownLine className="svg-nav" />
             </Nav.Link>
             <Nav.Link className="Buttons Text">
-              News <RiArrowDropDownLine />
+              News <RiArrowDropDownLine className="svg-nav" />
             </Nav.Link>
             <Nav.Link className="Buttons Text">More</Nav.Link>
           </Nav>
 
-          <Navbar.Brand>{/* <MdOutlineDarkMode /> */}</Navbar.Brand>
           <Navbar.Brand className="Buttons">العربية</Navbar.Brand>
           <Navbar.Brand>
             <img
