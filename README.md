@@ -40,17 +40,20 @@ blog about Saudi Economy and sports .
 ---
 
 # Laight mode 
- <img width="1440" alt="Screen Shot 1443-12-02 at 5 17 30 AM" src="https://user-images.githubusercontent.com/92248111/176810532-2af95897-2fb1-4366-afea-0593726ab3d8.png">
-<img width="1440" alt="Screen Shot 1443-12-02 at 5 17 47 AM" src="https://user-images.githubusercontent.com/92248111/176810550-5952851e-d27d-4169-a587-1b8fdb1bf34a.png">
-<img width="1440" alt="Screen Shot 1443-12-02 at 5 17 56 AM" src="https://user-images.githubusercontent.com/92248111/176810581-9b33fca7-cdf6-482d-8c0f-d1315d911e73.png">
+ <img width="1440" alt="Screen Shot 1443-12-26 at 7 24 05 PM" src="https://user-images.githubusercontent.com/92248111/180828282-3422c2fa-8c34-478a-8486-885f8d2207d7.png">
+ 
+<img width="1440" alt="Screen Shot 1443-12-26 at 7 24 29 PM" src="https://user-images.githubusercontent.com/92248111/180828323-b9554960-48a4-4bb9-ae87-2724cbd1df31.png">
+
+<img width="1440" alt="Screen Shot 1443-12-26 at 7 24 54 PM" src="https://user-images.githubusercontent.com/92248111/180828353-1ea768e0-a2f9-4a28-af0f-a8c9611f4595.png">
 
 
----
 
 # Darck mode 
-<img width="1440" alt="Screen Shot 1443-12-02 at 5 14 14 AM" src="https://user-images.githubusercontent.com/92248111/176810593-4d0edb82-0f7f-4eef-b2bd-93d08a509df4.png">
 
-<img width="1440" alt="Screen Shot 1443-12-02 at 5 14 28 AM" src="https://user-images.githubusercontent.com/92248111/176810615-82d3c3df-536c-4206-b195-3d19f35a0207.png">
+<img width="1440" alt="Screen Shot 1443-12-26 at 7 27 12 PM" src="https://user-images.githubusercontent.com/92248111/180828514-979c870d-2f09-40a8-8ae9-f2f8aae45fd0.png">
 
-<img width="1440" alt="Screen Shot 1443-12-02 at 5 15 02 AM" src="https://user-images.githubusercontent.com/92248111/176810637-30fffec6-42a6-4ba2-99b0-0fbdfdebddcf.png">
+<img width="1440" alt="Screen Shot 1443-12-26 at 7 27 33 PM" src="https://user-images.githubusercontent.com/92248111/180828540-0614418c-2a84-4d4e-994d-d944ebb89f43.png">
+
+<img width="1440" alt="Screen Shot 1443-12-26 at 7 27 54 PM" src="https://user-images.githubusercontent.com/92248111/180828568-f7175cbb-94fc-40e6-9d06-f5c9c8de684f.png">
+
 
