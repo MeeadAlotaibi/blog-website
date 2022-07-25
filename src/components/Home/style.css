@@ -1,9 +1,12 @@
 .saudiMap-News {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
+.Banner{
+  width:50%
+}
 .SadiMapImage {
   opacity: 0.09;
   height: 100%;
@@ -75,8 +78,13 @@
   border-bottom-left-radius: 3px;
 }
 @media all and (max-width: 425px) {
+  .saudiMap-News{
+    flex-direction: column;
+  }
  .newsLogo {
-  margin-top: 4px;
+  margin-top: 20%;
+  justify-content: center;
+  align-items: center;
   height: 30px;
   width: 30px;
 }
@@ -85,11 +93,10 @@
   height: 200%;
   width: 100%;
 }
-.News-Text {
-  display: flex;
-  justify-content: center;
-  height: 400px;
-  width: 400px;
+.text-Part{
+  margin-top: 20%;
+  flex-direction: column;
+  width: 200px;
 }
 .news {
   font-size: 20px;
@@ -120,9 +127,6 @@
 }
 .list-View-Button {
   margin-bottom: 10px;
-  /* padding: 10px;
-  border: none;
-  border-top-left-radius: 3px;
-  border-bottom-left-radius: 3px; */
 }
+
 }

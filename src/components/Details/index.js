@@ -58,7 +58,10 @@ const Details = () => {
               <TbLetterH id="iconH" />
             </div>
             <div className="Text userComment">
-              ut aliquip ex ea commod consequat. Duis aute irure dolor in .
+              <p className="comment">
+               
+                ut aliquip ex ea commod consequat. Duis aute irure dolor in .
+              </p>
             </div>
           </div>
         </>

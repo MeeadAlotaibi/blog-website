@@ -18,7 +18,7 @@
   justify-content: center;
   align-items: center;
 }
-.NewsLogo{
+.NewsLogo {
   margin-top: 10px;
   height: 60px;
   width: 60px;
@@ -49,7 +49,7 @@
   margin-bottom: 2%;
 }
 .textarea-Button > button {
-  margin-left: 93%;
+  margin-left: 91%;
 }
 
 .Text-Image {
@@ -69,7 +69,7 @@
   font-style: normal;
   line-height: 35px;
   width: 67vw;
-  font-size :20px;
+  font-size: 20px;
   margin-bottom: 5%;
 }
 .Icon-Textarea {
@@ -94,83 +94,97 @@
   border: 2px solid #002554;
 }
 
- .userComment{
+.userComment {
   width: 100%;
   border: 2px solid #002554;
 }
-
+.comment{
+  padding-left: 5px;
+}
 /* ********************************************************************************** */
 
-
-@media only screen and (min-width: 320px) and (max-width: 425px)  {
-  .Details-Title {
-    font-size: 0.5rem;
-    width: 80%;
-}
-
-.Icons-Title {
-  display: flex;
-  justify-content: left;
-  align-items: left;
-  text-align: left;
-  margin-left: 20%;
-  margin-bottom: 5%;
-}
-.Text-Image {
-  margin-left: 30%;
-  width: 100%;
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+.Details-Content {
+  width: 40%;
+  margin-left: 5%;
   display: grid;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
-.NewsLogo{
-  margin-top: 1px;
-  height: 20px;
-  width: 20px;
+.Details-Title {
+    font-size: 0.5rem;
+    width: 80%;
+  }
+.Description {
+    margin-left: 1%;
+    text-align: left;
+    line-height: 1;
+    font-size: 7px;
+    margin-top: 5%;
+    margin-bottom: 10px;
 }
-#Details-Of-Image {
-  width: 100%;
-  margin-bottom: 2%;
-  border: 10px solid rgba(0, 0, 0, 0.78);
+.textarea-Button > button {
+    margin-left: 75%;
 }
-.Red {
-  color: #ae1c1c;
-  margin-left: 4%;
+.save-Button {
+  padding: 1px 10px 1px 10px;
+}
+.Icon-Textarea {
+    display: flex;
+    gap: 5px;
+    width: 80%;
+    margin-left: -1%;
+}
+.comment{
   font-size: 8px;
+  padding-left: 5px;
 }
-.Description{
-  margin-left: 10%;
-  text-align:center;
-  line-height: 10px;
-  font-size :10px;
-  margin-bottom: 5%;
+.Icons-Title {
+   margin-left: 29%;
 }
-.texterea {
-  width: 100%;
-  height: 30px;
-  border: 1px solid #002554;
-}
-.userComment{
-  width: 800px;
-  border: 0.3px solid #002554;
-}
-/* .Icon-Textarea {
-  display: flex;
-  margin-left: 27%;
-  width: 78%;
-  padding: 50px;
-} */
-.userIcon {
-
+  .Text-Image {
+    margin-left: 30%;
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .NewsLogo {
+    margin-top: 1px;
+    height: 20px;
+    width: 20px;
+  }
+  #Details-Of-Image {
+    width: 100%;
+    margin-bottom: 2%;
+    border: 10px solid rgba(0, 0, 0, 0.78);
+  }
+  .Red {
+    color: #ae1c1c;
+    margin-left: 4%;
+    font-size: 8px;
+  }
+  
+  .texterea {
+    width: 100%;
+    height: 30px;
+    border: 1px solid #002554;
+  }
+  .userComment {
+    width: 800px;
+    border: 0.3px solid #002554;
+  }
+ 
+  .userIcon {
     height: 30px;
     width: 30px;
     background-color: #ae1c1c;
     border-radius: 50%;
-}
-#iconH {
+  }
+  #iconH {
     margin-top: 10px;
     color: white;
     font-size: 20px;
+  }
 }
-} 
